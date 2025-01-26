@@ -51,6 +51,7 @@ export const getOptionOverrides = (dbType: 'postgresdb' | 'mysqldb') => {
 		port: dbConfig.port,
 		username: dbConfig.user,
 		password: dbConfig.password,
+		ssl:false
 	};
 };
 
